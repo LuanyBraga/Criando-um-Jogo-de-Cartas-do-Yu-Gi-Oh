@@ -1,5 +1,5 @@
 body {
-    cursor: url("../assets/cursor/yugicursor.png"), default;
+    cursor: url("/Yu-Gi-Oh/src/assets/cursor/yugicursor.png"), default;
   }
   
   #audio-player {
@@ -26,7 +26,7 @@ body {
   img:hover,
   a,
   a:hover {
-    cursor: url("../assets/cursor/yamiyugicursorGLOW.png"), auto;
+    cursor: url("/Yu-Gi-Oh/src/assets/cursor/yamiyugicursorGLOW.png"), auto;
   }
   
   .bg-video {
