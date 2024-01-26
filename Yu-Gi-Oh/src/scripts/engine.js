@@ -46,7 +46,7 @@ const state = {
   },
 };
 
-const pathImages = "./src/assets/icons/";
+const pathImages = "/Yu-Gi-Oh/src/assets/icons/";
 
 const cardData = [
   {
@@ -96,7 +96,7 @@ async function createCardImage(card, fieldSide) {
   const cardImage = document.createElement("img");
 
   cardImage.setAttribute("height", "100px");
-  cardImage.setAttribute("src", "./src/assets/icons/card-back.png");
+  cardImage.setAttribute("src", "/Yu-Gi-Oh/src/assets/icons/card-back.png");
   cardImage.setAttribute("data-id", card.id);
   cardImage.classList.add("card");
 
@@ -194,7 +194,7 @@ async function getRandomCard() {
 }
 
 async function playAudio(status) {
-  const audio = new Audio(`./src/assets/audios/${status}.wav`);
+  const audio = new Audio(`/Yu-Gi-Oh/src/assets/audios/${status}.wav`);
   audio.play();
 }
 
